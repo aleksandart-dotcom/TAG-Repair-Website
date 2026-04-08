@@ -142,5 +142,13 @@ export const contactDetails = {
   phoneHref: "tel:+17085752440",
   email: "[Insert email]",
   address: "4946 175th St, Country Club Hills, IL 60478, United States",
-  hours: "[Insert service hours]",
+  hours: [
+    "Monday: 8 AM - 6 PM",
+    "Tuesday: 8 AM - 6 PM",
+    "Wednesday: 8 AM - 6 PM",
+    "Thursday: 9 AM - 6 PM",
+    "Friday: 8 AM - 6 PM",
+    "Saturday: 8 AM - 12 PM",
+    "Sunday: Closed",
+  ],
 };

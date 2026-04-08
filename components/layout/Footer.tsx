@@ -35,7 +35,14 @@ export function Footer() {
             </li>
             <li>Email: {contactDetails.email}</li>
             <li>Address: {contactDetails.address}</li>
-            <li>Hours: {contactDetails.hours}</li>
+            <li>
+              Hours:
+              <ul className="mt-2 space-y-1 text-zinc-400">
+                {contactDetails.hours.map((slot) => (
+                  <li key={slot}>{slot}</li>
+                ))}
+              </ul>
+            </li>
           </ul>
           <div className="mt-4 flex gap-4 text-sm text-zinc-300">
             <a href="#" className="hover:text-white">
