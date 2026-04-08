@@ -58,7 +58,12 @@ export function Footer() {
             >
               Facebook
             </a>
-            <a href="#" className="hover:text-white">
+            <a
+              href={contactDetails.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               Instagram
             </a>
           </div>

@@ -166,4 +166,5 @@ export const contactDetails = {
     "Sunday: Closed",
   ],
   facebookUrl: "https://www.facebook.com/tagrepaircenter",
+  instagramUrl: "https://www.instagram.com/tag.repair.center/?hl=en",
 };
