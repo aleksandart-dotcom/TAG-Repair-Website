@@ -9,7 +9,7 @@ export const navLinks = [
 export const assets = {
   heroVideo: "/hero-video.mp4", // Replace with your final optimized hero video when ready
   heroImage: "/placeholders/hero-truck-bay.svg", // Replace with real hero image if not using video
-  shopInterior: "/placeholders/shop-interior.svg",
+  shopInterior: "/showcase-block-1.png", // ASSET 3 - showcase block 1 image
   mechanicWorking: "/placeholders/mechanic-working.svg",
   truckRepair: "/placeholders/truck-repair.svg",
   trailerService: "/shop-main.png", // ASSET 2 - sticky showcase main image
