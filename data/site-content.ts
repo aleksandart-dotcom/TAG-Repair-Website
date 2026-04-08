@@ -140,6 +140,6 @@ export const processSteps = [
 export const contactDetails = {
   phone: "[Insert phone]",
   email: "[Insert email]",
-  address: "[Insert address]",
+  address: "4946 175th St, Country Club Hills, IL 60478, United States",
   hours: "[Insert service hours]",
 };
