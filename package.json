@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy:prod": "vercel.cmd deploy --prod --scope aleksandars-projects-fe4c15c9",
+    "deploy:preview": "vercel.cmd deploy --scope aleksandars-projects-fe4c15c9"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
