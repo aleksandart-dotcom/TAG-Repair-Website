@@ -4,6 +4,7 @@ import { motion, type Variants } from "framer-motion";
 import Image from "next/image";
 import {
   assets,
+  bookingUrl,
   googleReviewsUrl,
   contactDetails,
   processSteps,
@@ -66,7 +67,7 @@ export function HeroSection() {
           confidence.
         </motion.p>
         <motion.div variants={fadeUp} className="mt-7 flex flex-col gap-3 sm:mt-9 sm:flex-row sm:flex-wrap sm:gap-4">
-          <Button href={contactDetails.phoneHref} className="w-full sm:min-w-36 sm:w-auto">
+          <Button href={bookingUrl} className="w-full sm:min-w-36 sm:w-auto">
             Book Service
           </Button>
           <Button href={contactDetails.phoneHref} variant="secondary" className="w-full sm:w-auto">
@@ -302,7 +303,7 @@ export function FinalCtaSection() {
             When repair matters, trust the team that understands the pressure behind every mile.
           </p>
           <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:mt-8 sm:flex-row sm:flex-wrap sm:gap-4">
-            <Button href={contactDetails.phoneHref} className="w-full sm:w-auto">
+            <Button href={bookingUrl} className="w-full sm:w-auto">
               Schedule Service
             </Button>
             <Button href={contactDetails.phoneHref} variant="secondary" className="w-full sm:w-auto">

@@ -98,6 +98,8 @@ export const trustStats = [
 export const googleReviewsUrl =
   "https://www.google.com/search?q=tag+repair+center#lrd=0x880e175fcf27152f:0x71f876112286e22a,1,,,,";
 
+export const bookingUrl = "https://app.fullbay.com/office/shopCalendar.html";
+
 // Replace/verify these with your exact preferred Google review excerpts.
 export const testimonials = [
   {
