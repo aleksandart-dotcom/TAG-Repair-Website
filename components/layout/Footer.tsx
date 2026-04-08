@@ -27,7 +27,12 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">Contact</h4>
           <ul className="mt-4 space-y-2 text-sm text-zinc-300">
-            <li>Phone: {contactDetails.phone}</li>
+            <li>
+              Phone:{" "}
+              <a href={contactDetails.phoneHref} className="hover:text-white">
+                {contactDetails.phone}
+              </a>
+            </li>
             <li>Email: {contactDetails.email}</li>
             <li>Address: {contactDetails.address}</li>
             <li>Hours: {contactDetails.hours}</li>

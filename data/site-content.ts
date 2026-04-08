@@ -138,7 +138,8 @@ export const processSteps = [
 
 // Replace contact placeholders once official details are ready.
 export const contactDetails = {
-  phone: "[Insert phone]",
+  phone: "+1 708-575-2440",
+  phoneHref: "tel:+17085752440",
   email: "[Insert email]",
   address: "4946 175th St, Country Club Hills, IL 60478, United States",
   hours: "[Insert service hours]",

@@ -5,6 +5,7 @@ import Image from "next/image";
 import {
   assets,
   googleReviewsUrl,
+  contactDetails,
   processSteps,
   services,
   showcaseBlocks,
@@ -65,10 +66,10 @@ export function HeroSection() {
           confidence.
         </motion.p>
         <motion.div variants={fadeUp} className="mt-7 flex flex-col gap-3 sm:mt-9 sm:flex-row sm:flex-wrap sm:gap-4">
-          <Button href="#contact" className="w-full sm:min-w-36 sm:w-auto">
+          <Button href={contactDetails.phoneHref} className="w-full sm:min-w-36 sm:w-auto">
             Book Service
           </Button>
-          <Button href="#contact" variant="secondary" className="w-full sm:w-auto">
+          <Button href={contactDetails.phoneHref} variant="secondary" className="w-full sm:w-auto">
             Call Now
           </Button>
         </motion.div>
@@ -210,7 +211,7 @@ export function DowntimeSection() {
             <li>- Delayed loads create bigger problems.</li>
             <li>- Reliable repair support makes a real difference.</li>
           </ul>
-          <Button href="#contact" className="mt-8 w-full sm:mt-9 sm:w-auto">
+          <Button href={contactDetails.phoneHref} className="mt-8 w-full sm:mt-9 sm:w-auto">
             Talk to the Team
           </Button>
         </AnimatedReveal>
@@ -301,10 +302,10 @@ export function FinalCtaSection() {
             When repair matters, trust the team that understands the pressure behind every mile.
           </p>
           <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:mt-8 sm:flex-row sm:flex-wrap sm:gap-4">
-            <Button href="#contact" className="w-full sm:w-auto">
+            <Button href={contactDetails.phoneHref} className="w-full sm:w-auto">
               Schedule Service
             </Button>
-            <Button href="#contact" variant="secondary" className="w-full sm:w-auto">
+            <Button href={contactDetails.phoneHref} variant="secondary" className="w-full sm:w-auto">
               Contact TAG Repair Center
             </Button>
           </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { navLinks } from "@/data/site-content";
+import { contactDetails, navLinks } from "@/data/site-content";
 import { Button } from "@/components/ui/Button";
 
 export function Navbar() {
@@ -42,7 +42,7 @@ export function Navbar() {
         </div>
 
         <div className="hidden md:block">
-          <Button href="#contact" className="px-5 py-2.5 text-xs md:text-sm">
+          <Button href={contactDetails.phoneHref} className="px-5 py-2.5 text-xs md:text-sm">
             Book Service
           </Button>
         </div>
@@ -69,7 +69,7 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button href="#contact" className="mt-3 w-full" variant="secondary">
+            <Button href={contactDetails.phoneHref} className="mt-3 w-full" variant="secondary">
               Book Service
             </Button>
           </div>
