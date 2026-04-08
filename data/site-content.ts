@@ -7,7 +7,7 @@ export const navLinks = [
 
 // Replace brand assets here when final media is ready.
 export const assets = {
-  heroVideo: "", // Replace with: /videos/hero-workshop.mp4
+  heroVideo: "/hero-video.mp4", // Replace with your final optimized hero video when ready
   heroImage: "/placeholders/hero-truck-bay.svg", // Replace with real hero image if not using video
   shopInterior: "/placeholders/shop-interior.svg",
   mechanicWorking: "/placeholders/mechanic-working.svg",
