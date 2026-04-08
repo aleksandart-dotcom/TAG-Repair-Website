@@ -89,9 +89,9 @@ export const showcaseBlocks = [
 ];
 
 export const trustStats = [
-  "[X]+ Trucks Serviced",
-  "[X] Years of Experience",
-  "[X]% Focus on Clear Communication",
+  "2,500+ Trucks Serviced",
+  "13 Years of Experience",
+  "98% Focus on Clear Communication",
   "Fast Turnaround Mindset",
 ];
 
