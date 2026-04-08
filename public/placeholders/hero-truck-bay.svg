@@ -1,0 +1,10 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#111418"/>
+  <rect x="150" y="140" width="1300" height="620" rx="28" fill="#1A1F26"/>
+  <rect x="220" y="210" width="560" height="350" rx="20" fill="#232A33"/>
+  <rect x="850" y="210" width="520" height="350" rx="20" fill="#232A33"/>
+  <rect x="220" y="610" width="1150" height="80" rx="14" fill="#20262E"/>
+  <circle cx="335" cy="650" r="10" fill="#8A2C2C"/>
+  <circle cx="375" cy="650" r="10" fill="#8A2C2C"/>
+  <text x="220" y="120" fill="#F2F1ED" font-family="Arial, sans-serif" font-size="36" letter-spacing="3">REPLACE WITH HERO VIDEO / IMAGE</text>
+</svg>
