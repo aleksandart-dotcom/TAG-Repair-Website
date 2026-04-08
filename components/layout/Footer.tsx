@@ -33,7 +33,12 @@ export function Footer() {
                 {contactDetails.phone}
               </a>
             </li>
-            <li>Email: {contactDetails.email}</li>
+            <li>
+              Email:{" "}
+              <a href={contactDetails.emailHref} className="hover:text-white">
+                {contactDetails.email}
+              </a>
+            </li>
             <li>Address: {contactDetails.address}</li>
             <li>
               Hours:

@@ -140,7 +140,8 @@ export const processSteps = [
 export const contactDetails = {
   phone: "+1 708-575-2440",
   phoneHref: "tel:+17085752440",
-  email: "[Insert email]",
+  email: "info@tagrepaircenter.com",
+  emailHref: "mailto:info@tagrepaircenter.com",
   address: "4946 175th St, Country Club Hills, IL 60478, United States",
   hours: [
     "Monday: 8 AM - 6 PM",
