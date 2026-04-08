@@ -101,16 +101,19 @@ export const googleReviewsUrl =
 // Replace/verify these with your exact preferred Google review excerpts.
 export const testimonials = [
   {
-    quote: "Great quality and fast service. Professional staff. Highly recommend.",
-    author: "Mustaf Osman (Google Review)",
+    quote:
+      "I'm a happy owner operator to report 5 stars. As at the time of needing a eld installed,and not being able to find any other shop while they may power close to Christmas and new years they got in and did a very good install and clean. They are now my number one shop",
+    author: "Armond Jackson Jr (Google Review)",
   },
   {
-    quote: "Quick turnaround and strong communication from start to finish.",
-    author: "Aabdihakim Jama (Google Review)",
+    quote:
+      "As the owner of a fleet of semi-trucks, it's crucial for us to have a reliable and trustworthy service partner. Tag Repair Center has consistently met and exceeded our expectations. Their attention to detail, prompt service, and commitment...",
+    author: "Fayez Ayed (Google Review)",
   },
   {
-    quote: "Professional repair support and dependable service when urgency matters.",
-    author: "Thomas Newton (Google Review)",
+    quote:
+      "Stopped in recently for a diagnostic. Excellent set up, right off the highway, and easy to pull in. Very knowledgeable and friendly staff. They were able to pinpoint my issue and gave great pricing with no hassle.",
+    author: "Ben P (Google Review)",
   },
 ];
 
