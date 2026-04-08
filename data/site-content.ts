@@ -165,4 +165,5 @@ export const contactDetails = {
     "Saturday: 8 AM - 12 PM",
     "Sunday: Closed",
   ],
+  facebookUrl: "https://www.facebook.com/tagrepaircenter",
 };

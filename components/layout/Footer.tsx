@@ -50,7 +50,12 @@ export function Footer() {
             </li>
           </ul>
           <div className="mt-4 flex gap-4 text-sm text-zinc-300">
-            <a href="#" className="hover:text-white">
+            <a
+              href={contactDetails.facebookUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               Facebook
             </a>
             <a href="#" className="hover:text-white">
