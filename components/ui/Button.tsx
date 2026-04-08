@@ -10,7 +10,7 @@ type ButtonProps = {
 
 export function Button({ href, children, variant = "primary", className = "" }: ButtonProps) {
   const base =
-    "inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold tracking-wide transition duration-300";
+    "inline-flex min-h-11 items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold tracking-wide transition duration-300 sm:px-6 sm:py-3";
   const styles =
     variant === "primary"
       ? "bg-[var(--foreground)] text-[var(--background)] hover:bg-white"
