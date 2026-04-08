@@ -12,7 +12,7 @@ export const assets = {
   shopInterior: "/placeholders/shop-interior.svg",
   mechanicWorking: "/placeholders/mechanic-working.svg",
   truckRepair: "/placeholders/truck-repair.svg",
-  trailerService: "/placeholders/trailer-service.svg",
+  trailerService: "/shop-main.png", // ASSET 2 - sticky showcase main image
   beforeAfter: "/placeholders/before-after.svg",
 };
 
