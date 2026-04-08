@@ -11,7 +11,7 @@ export const assets = {
   heroImage: "/placeholders/hero-truck-bay.svg", // Replace with real hero image if not using video
   shopInterior: "/showcase-block-1.png", // ASSET 3 - showcase block 1 image
   mechanicWorking: "/showcase-block-2.png", // ASSET 4 - showcase block 2 image
-  truckRepair: "/placeholders/truck-repair.svg",
+  truckRepair: "/showcase-block-3.png", // ASSET 5 - showcase block 3 image
   trailerService: "/shop-main.png", // ASSET 2 - sticky showcase main image
   beforeAfter: "/placeholders/before-after.svg",
 };
