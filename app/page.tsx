@@ -1,6 +1,7 @@
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import {
+  BrandsSection,
   DowntimeSection,
   FinalCtaSection,
   HeroSection,
@@ -20,6 +21,7 @@ export default function Home() {
       <main className="relative">
         <HeroSection />
         <WhyTagSection />
+        <BrandsSection />
         <ServicesSection />
         <ShowcaseSection />
         <DowntimeSection />

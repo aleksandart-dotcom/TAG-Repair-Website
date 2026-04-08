@@ -70,6 +70,17 @@ export const services = [
   },
 ];
 
+export const supportedBrands = [
+  "Freightliner",
+  "Volvo",
+  "Kenworth",
+  "Peterbilt",
+  "Mack",
+  "International",
+  "Western Star",
+  "Hino",
+];
+
 export const showcaseBlocks = [
   {
     title: "Built around real shop work.",

@@ -10,6 +10,7 @@ import {
   processSteps,
   services,
   showcaseBlocks,
+  supportedBrands,
   testimonials,
   trustStats,
   whyTagPoints,
@@ -140,6 +141,35 @@ export function ServicesSection() {
             <h3 className="relative mt-2.5 text-lg font-semibold tracking-tight sm:mt-3 sm:text-xl md:text-2xl">{service.title}</h3>
             <p className="relative mt-3 text-[15px] leading-7 text-zinc-300 sm:mt-4 sm:text-base">{service.copy}</p>
           </motion.article>
+        ))}
+      </motion.div>
+    </Section>
+  );
+}
+
+export function BrandsSection() {
+  return (
+    <Section
+      id="brands"
+      label="TRUCK BRANDS"
+      title="Trusted support across major truck brands."
+      intro="Our shop works on the equipment you run every day, with practical experience across the most common trucking platforms."
+    >
+      <motion.div
+        className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4"
+        variants={stagger}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.2 }}
+      >
+        {supportedBrands.map((brand) => (
+          <motion.div
+            key={brand}
+            variants={fadeUp}
+            className="rounded-2xl border border-white/10 bg-white/[0.02] px-4 py-4 text-center text-sm font-semibold tracking-[0.03em] text-zinc-200 sm:text-base"
+          >
+            {brand}
+          </motion.div>
         ))}
       </motion.div>
     </Section>
