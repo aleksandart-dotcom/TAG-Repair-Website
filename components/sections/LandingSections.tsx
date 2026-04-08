@@ -4,6 +4,7 @@ import { motion, type Variants } from "framer-motion";
 import Image from "next/image";
 import {
   assets,
+  googleReviewsUrl,
   processSteps,
   services,
   showcaseBlocks,
@@ -249,6 +250,17 @@ export function TrustSection() {
           </AnimatedReveal>
         ))}
       </div>
+
+      <AnimatedReveal className="mt-8">
+        <a
+          href={googleReviewsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-semibold transition hover:border-white/40 hover:bg-white/10"
+        >
+          See Google Reviews
+        </a>
+      </AnimatedReveal>
     </Section>
   );
 }

@@ -95,19 +95,22 @@ export const trustStats = [
   "Fast Turnaround Mindset",
 ];
 
-// Replace placeholders with real customer names and quotes.
+export const googleReviewsUrl =
+  "https://www.google.com/search?q=tag+repair+center#lrd=0x880e175fcf27152f:0x71f876112286e22a,1,,,,";
+
+// Replace/verify these with your exact preferred Google review excerpts.
 export const testimonials = [
   {
-    quote: "Great service, strong communication, and a team that understands urgency.",
-    author: "Customer Name Placeholder",
+    quote: "Great quality and fast service. Professional staff. Highly recommend.",
+    author: "Mustaf Osman (Google Review)",
   },
   {
-    quote: "They helped us move quickly and handled the repair process professionally.",
-    author: "Fleet Customer Placeholder",
+    quote: "Quick turnaround and strong communication from start to finish.",
+    author: "Aabdihakim Jama (Google Review)",
   },
   {
-    quote: "Reliable shop, dependable people, and real support when it matters.",
-    author: "Owner Operator Placeholder",
+    quote: "Professional repair support and dependable service when urgency matters.",
+    author: "Thomas Newton (Google Review)",
   },
 ];
 
