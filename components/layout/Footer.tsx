@@ -1,11 +1,22 @@
-import { contactDetails, navLinks } from "@/data/site-content";
+import Image from "next/image";
+import Link from "next/link";
+import { assets, contactDetails, navLinks } from "@/data/site-content";
 
 export function Footer() {
   return (
     <footer className="border-t border-white/10 bg-[#0b0d10]">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3 md:px-10">
         <div>
-          <h3 className="text-lg font-semibold">TAG Repair Center</h3>
+          <Link href="/" className="inline-flex items-center gap-3">
+            <Image
+              src={assets.logo}
+              alt="TAG Repair Center Logo - Since 2012"
+              width={100}
+              height={100}
+              className="h-14 w-auto"
+            />
+            <span className="text-lg font-semibold">TAG Repair Center</span>
+          </Link>
           <p className="mt-4 max-w-sm text-sm leading-6 text-zinc-300">
             Truck and trailer repair support built for real-world trucking demands.
           </p>

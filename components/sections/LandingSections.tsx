@@ -51,12 +51,16 @@ export function HeroSection() {
       </div>
 
       <motion.div className="relative mx-auto w-full max-w-6xl" variants={stagger} initial="hidden" animate="show">
-        <motion.p
-          variants={fadeUp}
-          className="mb-4 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-300 sm:mb-5 sm:text-xs sm:tracking-[0.26em]"
-        >
-          TAG REPAIR CENTER
-        </motion.p>
+        <motion.div variants={fadeUp} className="mb-5 sm:mb-6">
+          <Image
+            src={assets.logo}
+            alt="TAG Repair Center Logo - Since 2012"
+            width={180}
+            height={180}
+            priority
+            className="h-16 w-auto drop-shadow-[0_8px_24px_rgba(0,0,0,0.45)] sm:h-20 md:h-[5.25rem]"
+          />
+        </motion.div>
         <motion.h1
           variants={fadeUp}
           className="max-w-5xl text-[2.35rem] font-semibold leading-[0.96] tracking-tight sm:text-6xl md:text-8xl"
@@ -155,6 +159,24 @@ export function BrandsSection() {
       title="Trusted support across major truck brands."
       intro="Our shop works on the equipment you run every day, with practical experience across the most common trucking platforms."
     >
+      <motion.div
+        className="mb-10 flex flex-col items-center sm:mb-12"
+        initial={{ opacity: 0, y: 16 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
+        <Image
+          src={assets.logo}
+          alt="TAG Repair Center Logo - Since 2012"
+          width={160}
+          height={160}
+          className="h-24 w-auto sm:h-28"
+        />
+        <p className="mt-3 text-center text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
+          Your certified repair partner
+        </p>
+      </motion.div>
       <motion.div
         className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4"
         variants={stagger}

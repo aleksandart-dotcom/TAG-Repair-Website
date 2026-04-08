@@ -1,7 +1,9 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
-import { bookingUrl, navLinks } from "@/data/site-content";
+import { assets, bookingUrl, navLinks } from "@/data/site-content";
 import { Button } from "@/components/ui/Button";
 
 export function Navbar() {
@@ -29,9 +31,21 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-3.5 md:px-10 md:py-4">
-        <a href="#" className="text-[15px] font-semibold tracking-[0.02em] text-[var(--foreground)] sm:text-base md:text-lg">
-          TAG Repair Center
-        </a>
+        <Link
+          href="/"
+          className="flex shrink-0 items-center gap-2.5 text-[var(--foreground)]"
+          onClick={() => setOpen(false)}
+        >
+          <Image
+            src={assets.logo}
+            alt="TAG Repair Center Logo - Since 2012"
+            width={120}
+            height={120}
+            className="h-9 w-auto sm:h-10 md:h-11"
+            priority
+          />
+          <span className="sr-only">TAG Repair Center</span>
+        </Link>
 
         <div className="hidden items-center gap-7 md:flex">
           {navLinks.map((link) => (

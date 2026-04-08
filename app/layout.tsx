@@ -12,10 +12,32 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "TAG Repair Center | Truck & Trailer Repair",
   description:
     "Premium truck and trailer repair support built to reduce downtime and keep fleets moving.",
+  icons: {
+    icon: "/logo-tag-repair-center.png",
+    apple: "/logo-tag-repair-center.png",
+  },
+  openGraph: {
+    title: "TAG Repair Center | Truck & Trailer Repair",
+    description:
+      "Premium truck and trailer repair support built to reduce downtime and keep fleets moving.",
+    images: [
+      {
+        url: "/logo-tag-repair-center.png",
+        width: 512,
+        height: 512,
+        alt: "TAG Repair Center Logo - Since 2012",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
