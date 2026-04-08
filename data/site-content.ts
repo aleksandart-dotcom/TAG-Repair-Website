@@ -2,7 +2,7 @@ export const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Why TAG", href: "#why-tag" },
   { label: "Process", href: "#process" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "tel:+17085752440" },
 ];
 
 // Replace brand assets here when final media is ready.
