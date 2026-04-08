@@ -15,6 +15,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen overflow-x-clip bg-[var(--background)] text-[var(--foreground)]">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_0%,rgba(138,44,44,0.12),transparent_35%),radial-gradient(circle_at_80%_10%,rgba(255,255,255,0.06),transparent_35%)]" />
+      <div className="pointer-events-none absolute inset-x-0 top-[34rem] h-[42rem] bg-gradient-to-b from-transparent via-white/[0.02] to-transparent" />
       <Navbar />
       <main className="relative">
         <HeroSection />

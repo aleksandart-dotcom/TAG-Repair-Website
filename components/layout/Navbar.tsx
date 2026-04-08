@@ -18,11 +18,11 @@ export function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        scrolled ? "bg-black/75 backdrop-blur-md" : "bg-transparent"
+        scrolled ? "border-b border-white/10 bg-black/80 backdrop-blur-xl" : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-10">
-        <a href="#" className="text-base font-semibold tracking-wide text-[var(--foreground)] md:text-lg">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3.5 md:px-10 md:py-4">
+        <a href="#" className="text-base font-semibold tracking-[0.02em] text-[var(--foreground)] md:text-lg">
           TAG Repair Center
         </a>
 
@@ -35,11 +35,13 @@ export function Navbar() {
         </div>
 
         <div className="hidden md:block">
-          <Button href="#contact">Book Service</Button>
+          <Button href="#contact" className="px-5 py-2.5 text-xs md:text-sm">
+            Book Service
+          </Button>
         </div>
 
         <button
-          className="rounded-full border border-white/20 px-3 py-1.5 text-sm md:hidden"
+          className="rounded-full border border-white/20 bg-white/5 px-3 py-1.5 text-sm md:hidden"
           onClick={() => setOpen((prev) => !prev)}
           aria-label="Toggle menu"
         >
